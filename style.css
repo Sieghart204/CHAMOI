@@ -1,0 +1,62 @@
+body {
+    margin:0;
+    background-color: #efefef;
+    font-family: "IBM Plex Sans";
+}
+
+header {
+    text-align: center;
+    background-color: rgb(99,99,99);
+    padding: 2rem 3rem;
+}
+
+header h1 {
+    font-size: 4rem;
+}
+
+.container {
+    width: 400px;
+    margin:0 auto;
+}
+
+footer {
+    background-color:rgb(99,99,99);
+    padding: 3rem;
+    color: white;
+}
+
+section article {
+    background-color: #fff;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 0.5rem 0rem;
+}
+
+section article:hover {
+    transition: box-shadow 0.3s ease;
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3);
+    cursor:pointer
+}
+
+footer section {
+    float:right;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    transition: color 0.3s ease;
+    color:white;
+    text-decoration:0;
+}
+
+footer a:hover {
+    color:cornflowerblue;
+}
+
+footer a {
+    border: 1px black solid;
+    border-radius: 5px;
+}
